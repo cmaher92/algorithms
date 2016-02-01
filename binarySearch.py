@@ -39,3 +39,5 @@ def binarySearch(primes, min, max, target):
         binarySearch(primes, min, n-1, target)
 
 binarySearch(primes, 0, len(primes) - 1, 37)
+
+# While loop is probably a better choice
